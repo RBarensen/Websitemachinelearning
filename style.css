@@ -1,5 +1,17 @@
 body {
-  background-color: blue
+  background-color: white;
 }
 
+h1 {
+  color:white;
+  padding: 20px;
+  background-color:blue;
+text-align: center;
+font-weight: bold;
 
+}
+
+h2 {
+  text-align:center;
+  
+}
