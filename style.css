@@ -1,6 +1,9 @@
 body {
   background-color: white;
 }
+body {
+  background-color: white;
+}
 
 h1 {
   color:white;
@@ -16,7 +19,8 @@ h2 {
   
 }
 
-h3 {
-  text-align: center;
+h4{
+color: blue;
+  margin: 0;
 }
 
