@@ -1,0 +1,40 @@
+body {
+  background-color: lightgrey;
+}
+body {
+  background-color: white;
+}
+
+h1 {
+  color:white;
+  padding: 20px;
+  background-color: paleturquoise;
+text-align: center;
+font-weight: bold;
+
+}
+
+h2 {
+  text-align:center;
+  
+}
+
+h4{
+color: blue;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+}
+
+table, tr, td {
+background-color: paleturquoise;
+  border: 1px solid black;
+  width: 1064px;
+  height: 500px;
+}
+
+.form-center {
+  justify-content: center;
+}

@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: lightgrey;
 }
 body {
   background-color: white;
@@ -8,7 +8,7 @@ body {
 h1 {
   color:white;
   padding: 20px;
-  background-color:blue;
+  background-color: paleturquoise;
 text-align: center;
 font-weight: bold;
 
@@ -24,3 +24,6 @@ color: blue;
   margin: 0;
 }
 
+toelichting{
+  text-align: center;
+}
