@@ -33,8 +33,38 @@
 
       <h1>Contactpagina</h1>
 
-      <div class="form-center">
-        <form action="contactus.php" method="post">
-        <input type="text">
-      </form></div>
-    </article></div></body></html>
+  <p><em>Hieronder dient u uw gegevens in te vullen in het geval u contact met ons wil opnemen.</em></p>
+
+  <div class="appelkoek">
+   <form action="contactus.php" method="post">
+    <fieldset>
+       <p>Naam:</p> <center>  
+       <input name=naam placeholder="Voornaam Achternaam" required>     <br><br>
+       <p>E-mailadres:</p>
+       <input name=email placeholder="******@gmail.com" required>
+       <br><br>
+     <p>Telefoonnummer:</p>
+       <input name=telefoon placeholder="0612345678" required>
+       <br><br>
+     <p>Land:</p>
+     <input list="countries" placeholder="Nederland" required> 
+
+<datalist id="countries">
+  <option value="Nederland">
+  <option value="Espana">
+  <option value="Portugal̈">
+  <option value="UK">
+  <option value="Suomi">
+  <option value="Norge">
+  <option value="Polska">
+  <option value="Czeska">
+  <option value="Italia">
+  <option value="Switzerland">
+  <option value="Osterreich">
+</datalist>
+
+<p><input type="submit"></p>
+         
+    </fieldset>
+       </center></form>
+  </div></article></div></body></html>
