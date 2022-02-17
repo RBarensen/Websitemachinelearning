@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  background-image: url("wow.jpg");
+  
+}
+}
+.content{
+  display: flex;
+}
+ 
+nav{
+  width: 15vw;
+  background-color: paleturquoise; 
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin: 10px;
+  text-align: center;
+  
+} 
+a {
+  color: white;
+  display: block;
+  padding: 15px;
+  background-color: darkblue;
+} 
+article{
+  background-color:white;
+  width: 1250px
+}
+aside{
+  background-color: lightblue;
+  width: 400px
+}
+footer

@@ -5,9 +5,8 @@
     <link rel="shortcut icon" type="image/jpg" href="Rb (6).png">
     <link href="video.css" rel="stylesheet" type="text/css">
   </head>
- 
+
   <body>
-    <header>Ramses en Ruben, Machine learning</header>
     <div class="wrapper" style="
     display: flex;
 ">
@@ -16,22 +15,27 @@
     background-color: paleturquoise;  
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+   ">
+
+<p><strong>MENU</strong></p> 
   
-">
        
    <center> <a href="index.html">Home</a></center> <br>
    <center> <a href="Video.html">Video</a></center> <br>
    <center><a href="overons.html">About pagina</a></center> <br>
-     <center><a href="contact.html">Contact ons</a></center>   
+   <center><a href="contact.html">Contact ons</a></center>   
       
-    </nav>
+</nav>
     <article style="
     width: 70vw;
     background-color: white;
     margin-left: 30px;
 ">
 
-      <h1>Contactpagina</h1>
+<h1>Contactpagina</h1>
 
   <p><em>Hieronder dient u uw gegevens in te vullen in het geval u contact met ons wil opnemen.</em></p>
 
@@ -39,7 +43,7 @@
    <form action="contactus.php" method="post">
     <fieldset>
        <p>Naam:</p> <center>  
-       <input name=naam placeholder="Voornaam Achternaam" required>     <br><br>
+       <input name=naam placeholder="Voornaam Achternaam" required><br><br>
        <p>E-mailadres:</p>
        <input name=email placeholder="******@gmail.com" required>
        <br><br>
@@ -47,7 +51,7 @@
        <input name=telefoon placeholder="0612345678" required>
        <br><br>
      <p>Land:</p>
-     <input list="countries" placeholder="Nederland" required> 
+       <input list="countries" placeholder="Nederland" required> 
 
 <datalist id="countries">
   <option value="Nederland">
@@ -63,8 +67,13 @@
   <option value="Osterreich">
 </datalist>
 
-<p><input type="submit"></p>
+        <p><input type="submit"></p>
          
     </fieldset>
-       </center></form>
-  </div></article></div></body></html>
+      </center>
+   </form>
+  </div>
+  </article>
+</div>
+</body> 
+</html>
