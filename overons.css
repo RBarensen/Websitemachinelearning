@@ -4,7 +4,7 @@
 }
 
 h1 {
-color:white;
+color:black;
 padding: 20px;
 background-color: paleturquoise;
 text-align: center;
@@ -12,6 +12,7 @@ font-weight: bold;
 width: 1050px;
 padding-left: 10px;
 padding-right: 0;
+border: 1px solid black;
 }
 
 nav{
