@@ -84,3 +84,7 @@ a {
 .content{
   display: flex;
 }
+
+nav{
+  border: 1px solid;
+}

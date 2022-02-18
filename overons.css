@@ -1,13 +1,19 @@
-body{
-  margin: 0;
-  background-image: url("wow.jpg");
-  
-}
-}
+
 .content{
   display: flex;
 }
- 
+
+h1 {
+color:white;
+padding: 20px;
+background-color: paleturquoise;
+text-align: center;
+font-weight: bold;
+width: 1050px;
+padding-left: 10px;
+padding-right: 0;
+}
+
 nav{
   width: 15vw;
   background-color: paleturquoise; 
@@ -17,20 +23,45 @@ nav{
   margin-left: 10px;
   margin: 10px;
   text-align: center;
-  
+  border: 1px solid;
 } 
 a {
   color: white;
   display: block;
-  padding: 15px;
+  padding: 10px;
   background-color: darkblue;
 } 
 article{
   background-color:white;
-  width: 1250px
+  width: 1000px
 }
 aside{
   background-color: lightblue;
-  width: 400px
+  width: 15vw
 }
-footer
+<style>
+}
+</style>
+
+
+
+caption {
+  font-size: 40px;
+  padding: 10px;
+  background-color: paleturquoise;
+}
+
+th, td {
+border: 1px solid black;
+background-color: paleturquoise;
+}
+
+table {
+  border-collapse: collapse;
+  width: 1055px;
+  table-layout: fixed;
+}
+
+td {
+  width: calc(100%/2);
+}

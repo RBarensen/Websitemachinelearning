@@ -2,8 +2,15 @@
   background-color: lightgrey;
 
 }
-
-
+body{
+  margin:100px ;
+  background-color: cyan ;
+  background-image:
+  url̈("wow.jpg")
+  background-size: cover;
+  background-position: centeŕ;
+  background: linear-gradient (rgba (0,0,0)), rgb(26,13,206)) url("wow.jpg")
+}
 
 
 h2 {
