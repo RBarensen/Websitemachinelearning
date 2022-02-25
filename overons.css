@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 480px)
 .content{
   display: flex;
 }
@@ -19,37 +19,46 @@ nav{
   width: 15vw;
   background-color: paleturquoise; 
   display: flex;
-  flex-direction: column;
   margin-right: 10px;
   margin-left: 10px;
   margin: 10px;
+  flex-direction: column;
   text-align: center;
   border: 1px solid;
 } 
+
 a {
   color: white;
   display: block;
   padding: 10px;
   background-color: darkblue;
+  text-decoration: none;
 } 
 article{
   background-color:white;
-  width: 1000px
+  width: 1000px;
 }
-aside{
+
+
+.content {
+  margin-left: 10px;   
+}
+
+
+
+aside {
   background-color: lightblue;
   width: 15vw
 }
-<style>
-}
-</style>
+
 
 
 
 caption {
-  font-size: 40px;
+  font-size: 20px;
   padding: 10px;
   background-color: paleturquoise;
+  border: 1px solid black;
 }
 
 th, td {
@@ -66,3 +75,4 @@ table {
 td {
   width: calc(100%/2);
 }
+

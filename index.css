@@ -1,4 +1,7 @@
-
+body{
+background-image: url('images/foto.jpg')
+}
+@media screen and (min-width: 480px)
   background-color: lightgrey;
 
 }
@@ -15,11 +18,12 @@ body{
 
 h2 {
   text-align:center;
+  color: red;
   
 }
 
 h4{
-color: rgb(0, 38, 255);   ewa strijder
+color: yellow;   
   margin: 0;
 }
 
@@ -48,6 +52,7 @@ a {
   display: block;
   padding: 15px;
   background-color: darkblue;
+  text-decoration: none;
 } 
 
 
@@ -64,5 +69,17 @@ h1  {
   background-color: paleturquoise;
   text-align: center;
   font-weight: bold;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+ul {
+ color: white;
+}
+
+ol{
   color: white;
 }

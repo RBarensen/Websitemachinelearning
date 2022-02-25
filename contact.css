@@ -1,4 +1,5 @@
- .form-center {
+@media screen and (min-width: 480px)
+.form-center {
   width: 400px
  }
 
